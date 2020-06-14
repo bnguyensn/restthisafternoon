@@ -1,10 +1,8 @@
 ---
-title: 'Hello, world!'
-author: 'Cassidy'
+title: "Don't Redux everything "
+author: 'Binh Nguyen'
 ---
 
-Humblebrag sartorial man braid ad vice, wolf ramps in cronut proident cold-pressed occupy organic normcore. Four loko tbh tousled reprehenderit ex enim qui banjo organic aute gentrify church-key. Man braid ramps in, 3 wolf moon laborum iPhone venmo sunt yr elit laboris poke succulents intelligentsia activated charcoal. Gentrify messenger bag hot chicken brooklyn. Seitan four loko art party, ut 8-bit live-edge heirloom. Cornhole post-ironic glossier officia, man braid raclette est organic knausgaard chillwave.
+Redux is very powerful, but don't put everything in it or you'll have a bad time extending things.
 
-- Look at me
-- I am in a list
-- Woo hoo
+Thank you for coming to my TED talk.
