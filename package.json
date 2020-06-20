@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --loglevel=warn --write \"**/*.{js,jsx,json,md}\"",
     "lint": "eslint \"src/**/*.js\""
   },
   "dependencies": {
@@ -19,7 +19,7 @@
     "react-markdown": "^4.3.1"
   },
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.20.0",
     "prettier": "^2.0.5"

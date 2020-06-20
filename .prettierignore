@@ -6,3 +6,5 @@ package-lock.json
 public
 build
 dist
+.next
+node_modules
