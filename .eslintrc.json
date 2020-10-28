@@ -7,13 +7,14 @@
     "browser": true
   },
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 9,
     "ecmaFeatures": { "jsx": true },
     "sourceType": "module"
   },
   "plugins": ["react"],
   "rules": {
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0
   },
   "settings": {
     "react": {

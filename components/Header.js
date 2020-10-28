@@ -1,18 +1,17 @@
-import Link from 'next/link';
+import InternalLink from './InternalLink';
 
 export default function Header() {
   return (
-    <>
-      <header className="header">
-        <nav className="nav">
-          <Link href="/">
-            <a>My Blog</a>
-          </Link>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </nav>
-      </header>
-    </>
+    <header>
+      <nav className="mx-auto flex items-center p-4 max-w-screen-lg">
+        <h4 className="font-display flex-grow text-right">
+          <InternalLink href="/">
+            <span className="cursor-pointer text-pink-600">
+              Rest this Afternoon <span>⛅</span>
+            </span>
+          </InternalLink>
+        </h4>
+      </nav>
+    </header>
   );
 }

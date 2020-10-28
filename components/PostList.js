@@ -1,23 +1,22 @@
-import Link from 'next/link';
+import InternalLink from './InternalLink';
 
 export default function PostList({ posts }) {
-  if (posts === 'undefined') return null;
+  if (posts === 'undefined' || !posts) {
+    return null;
+  }
 
   return (
-    <div>
-      {!posts && <div>No posts!</div>}
-      <ul>
-        {posts &&
-          posts.map((post) => {
-            return (
-              <li key={post.slug}>
-                <Link href={{ pathname: `/post/${post.slug}` }}>
-                  <a>{post.frontmatter.title}</a>
-                </Link>
-              </li>
-            );
-          })}
-      </ul>
-    </div>
+    <ul className="py-2 list-disc">
+      {posts &&
+        posts.map((post) => {
+          return (
+            <li key={post.slug} className="ml-4 pl-2">
+              <InternalLink href={{ pathname: `/writings/${post.slug}` }}>
+                {post.frontmatter.title}
+              </InternalLink>
+            </li>
+          );
+        })}
+    </ul>
   );
 }

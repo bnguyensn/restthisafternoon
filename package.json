@@ -12,16 +12,19 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "next": "9.4.4",
-    "raw-loader": "^4.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-markdown": "^4.3.1"
+    "next": "10.0.0",
+    "raw-loader": "^4.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.3.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-react": "^7.20.0",
-    "prettier": "^2.0.5"
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.9.6"
   }
 }

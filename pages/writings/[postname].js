@@ -1,31 +1,33 @@
-import Link from 'next/link';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 
 import Layout from '../../components/Layout';
+import { formatDate } from '../../libs/date';
+import { useLocale } from '../../libs/dom';
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
+  const locale = useLocale();
+
   if (!frontmatter) return <></>;
 
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-      <Link href="/">
-        <a>Back to post list</a>
-      </Link>
-      <article>
-        <h1>{frontmatter.title}</h1>
-        <p>By {frontmatter.author}</p>
-        <div>
-          <ReactMarkdown source={markdownBody} />
-        </div>
-      </article>
+      <div className="mx-auto max-w-screen-md px-4">
+        <article className="blog-post">
+          <h4 className="py-2 font-bold">{frontmatter.title}</h4>
+          <div className="pb-4 text-sm text-gray-600">
+            {formatDate(new Date(frontmatter.date), locale)}
+          </div>
+          <section>
+            <ReactMarkdown source={markdownBody} />
+          </section>
+        </article>
+      </div>
     </Layout>
   );
 }
 
-export async function getStaticProps({ ...ctx }) {
-  const { postname } = ctx.params;
-
+export async function getStaticProps({ params: { postname } }) {
   const content = await import(`../../posts/${postname}.md`);
   const config = await import(`../../siteconfig.json`);
   const data = matter(content.default);
@@ -50,7 +52,7 @@ export async function getStaticPaths() {
     return data;
   })(require.context('../../posts', true, /\.md$/));
 
-  const paths = blogSlugs.map((slug) => `/post/${slug}`);
+  const paths = blogSlugs.map((slug) => `/writings/${slug}`);
 
   return {
     paths,
