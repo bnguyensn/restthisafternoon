@@ -1,8 +1,5 @@
-import Image from 'next/image';
-
 import Layout from '../components/Layout';
 import InternalLink from '../components/InternalLink';
-
 import ExternalLink from '../components/ExternalLink';
 
 const Index = ({ posts, title, ...props }) => {
@@ -10,10 +7,10 @@ const Index = ({ posts, title, ...props }) => {
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">
         <div className="w-20 h-20">
-          <Image
+          <img
             className="rounded shadow"
             src="/images/bnguyen.jpg"
-            alt="Binh Nguyen's photo"
+            alt="Binh's photo"
             width={200}
             height={200}
           />

@@ -3,9 +3,9 @@ import ExternalLink from './ExternalLink';
 export default function Footer() {
   return (
     <footer>
-      <div className="py-4 px-2 text-center bg-gray-900 text-white">
+      <div className="py-4 px-2 text-center bg-gray-900 text-white text-sm">
         <p className="pb-2">
-          Created with <span>❤️</span>{' '}
+          Made with <span>❤️</span>{' '}
           <ExternalLink href="https://github.com/bnguyensn/restthisafternoon">
             (source code)
           </ExternalLink>
