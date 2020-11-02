@@ -2,6 +2,8 @@
 title: Back to Basics
 author: Binh Nguyen
 date: "2020-10-28"
+category: nugget
+tags: life, tech
 ---
 
 Technology moves so fast these days, it feels impossible to stop and catch a breath sometimes. 

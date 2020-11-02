@@ -3,7 +3,10 @@ import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 
-export default function Layout({ children, pageTitle, ...props }) {
+export default function Layout({ children, pageTitle, keywords, ...props }) {
+  const baseKw = `bnguyensn, blog, personal`;
+  const kw = keywords ? `${baseKw}, ${keywords}` : baseKw;
+
   return (
     <>
       <Head>
@@ -11,7 +14,7 @@ export default function Layout({ children, pageTitle, ...props }) {
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <title>{pageTitle}</title>
         <meta name="description" content="Musings about life" />
-        <meta name="keywords" content="bnguyensn, blog, personal" />
+        <meta name="keywords" content={kw} />
         <meta name="author" content="Binh Nguyen" />
       </Head>
 

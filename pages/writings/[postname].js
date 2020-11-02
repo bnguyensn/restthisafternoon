@@ -1,5 +1,6 @@
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 import Layout from '../../components/Layout';
 import { formatDate } from '../../libs/date';
@@ -10,16 +11,25 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   if (!frontmatter) return <></>;
 
+  const renderers = {
+    code: ({ language, value }) => (
+      <SyntaxHighlighter language={language} children={value} />
+    ),
+  };
+
   return (
-    <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+    <Layout
+      pageTitle={`${siteTitle} | ${frontmatter.title}`}
+      keywords={frontmatter.tags}
+    >
       <div className="mx-auto max-w-screen-md px-4">
-        <article className="blog-post">
-          <h4 className="py-2 font-bold">{frontmatter.title}</h4>
+        <article className="blog-post pb-4">
+          <h3 className="py-2 font-bold">{frontmatter.title}</h3>
           <div className="pb-4 text-sm text-gray-600">
             {formatDate(new Date(frontmatter.date), locale)}
           </div>
           <section>
-            <ReactMarkdown source={markdownBody} />
+            <ReactMarkdown renderers={renderers} source={markdownBody} />
           </section>
         </article>
       </div>
