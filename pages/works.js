@@ -12,7 +12,12 @@ const Works = ({ title, ...props }) => {
         <ul className="py-2 list-disc">
           <li className="ml-4 pl-2">
             <ExternalLink href="https://super-app-18.restthisafternoon.com/">
-              Super app #18
+              Word guessing
+            </ExternalLink>
+          </li>
+          <li className="ml-4 pl-2">
+            <ExternalLink href="https://super-app-20.restthisafternoon.com/">
+              Invert binary tree
             </ExternalLink>
           </li>
           <li className="ml-4 pl-2">More to come...</li>
