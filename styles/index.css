@@ -69,6 +69,14 @@ a:hover {
   @apply py-2
 }
 
+.blog-post ul {
+  @apply list-disc
+}
+
+.blog-post li {
+  @apply ml-4 pl-2
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
