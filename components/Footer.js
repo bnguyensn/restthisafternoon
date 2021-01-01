@@ -27,7 +27,7 @@ export default function Footer() {
           <span> 🚀</span>
         </p>
 
-        <p>
+        <p className="pb-2">
           Fonts are{' '}
           <ExternalLink href="https://fonts.google.com/specimen/Quicksand">
             Quicksand
@@ -38,6 +38,8 @@ export default function Footer() {
           </ExternalLink>
           <span> ✨</span>
         </p>
+
+        <p>2020 - 2021</p>
       </div>
     </footer>
   );
