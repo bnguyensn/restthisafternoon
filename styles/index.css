@@ -5,11 +5,13 @@
 @font-face {
   font-family: Quicksand;
   src: local(Quicksand), url(/fonts/Quicksand-VariableFont_wght.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Bubblegum Sans;
   src: local(Bubblegum Sans), url(/fonts/BubblegumSans-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 
 * {
@@ -46,7 +48,7 @@ h6 {
 }
 
 a {
-  @apply text-blue-500 underline;
+  @apply text-blue-600 underline;
 }
 a:hover {
   @apply text-blue-800

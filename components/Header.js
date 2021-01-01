@@ -17,7 +17,11 @@ export default function Header() {
       <nav className="mx-auto p-4 max-w-screen-lg">
         <ul className="w-full flex items-center justify-center">
           <li className="md:hidden mx-2">
-            <IconButton className="w-8 h-8" handleAction={handleMenuBtnClick}>
+            <IconButton
+              className="w-8 h-8"
+              handleAction={handleMenuBtnClick}
+              aria-label="Toggle navigation menu"
+            >
               {menuOpen ? (
                 <CloseIcon fill="#db2778" />
               ) : (

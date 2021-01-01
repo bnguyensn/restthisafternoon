@@ -23,7 +23,7 @@ const Index = ({ posts, title, ...props }) => {
         </p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 pl-2">
+          <li className="ml-4 mb-2 pl-2">
             <InternalLink href="/works">My public works</InternalLink>
           </li>
           <li className="ml-4 pl-2">
@@ -34,7 +34,7 @@ const Index = ({ posts, title, ...props }) => {
         <p className="py-2">I&#39;m also available on:</p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 pl-2">
+          <li className="ml-4 mb-2 pl-2">
             <ExternalLink href="https://twitter.com/bnguyensn">
               Twitter
             </ExternalLink>

@@ -1,4 +1,4 @@
-import ExternalLink from './ExternalLink';
+import ExternalLinkDark from './ExternalLinkDark';
 
 export default function Footer() {
   return (
@@ -6,36 +6,38 @@ export default function Footer() {
       <div className="py-4 px-2 text-center bg-gray-900 text-white text-sm">
         <p className="pb-2">
           Made with <span>❤️</span>{' '}
-          <ExternalLink href="https://github.com/bnguyensn/restthisafternoon">
+          <ExternalLinkDark href="https://github.com/bnguyensn/restthisafternoon">
             (source code)
-          </ExternalLink>
+          </ExternalLinkDark>
         </p>
 
         <p className="pb-2">
           Built using{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>
+          <ExternalLinkDark href="https://nextjs.org">Next.js</ExternalLinkDark>
           {' and '}
-          <ExternalLink href="https://tailwindcss.com">
+          <ExternalLinkDark href="https://tailwindcss.com">
             Tailwind CSS
-          </ExternalLink>
+          </ExternalLinkDark>
           <span> 🛠️</span>
         </p>
 
         <p className="pb-2">
           Deployed by{' '}
-          <ExternalLink href="https://tailwindcss.com">Netlify</ExternalLink>
+          <ExternalLinkDark href="https://tailwindcss.com">
+            Netlify
+          </ExternalLinkDark>
           <span> 🚀</span>
         </p>
 
         <p className="pb-2">
           Fonts are{' '}
-          <ExternalLink href="https://fonts.google.com/specimen/Quicksand">
+          <ExternalLinkDark href="https://fonts.google.com/specimen/Quicksand">
             Quicksand
-          </ExternalLink>{' '}
+          </ExternalLinkDark>{' '}
           and{' '}
-          <ExternalLink href="https://fonts.google.com/specimen/Bubblegum+Sans">
+          <ExternalLinkDark href="https://fonts.google.com/specimen/Bubblegum+Sans">
             Bubblegum Sans
-          </ExternalLink>
+          </ExternalLinkDark>
           <span> ✨</span>
         </p>
 
