@@ -49,8 +49,8 @@ const Index = ({ posts, title, ...props }) => {
         <p className="py-2">Things I like:</p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 pl-2">Coffee ☕</li>
-          <li className="ml-4 pl-2">Computers 💻</li>
+          <li className="ml-4 mb-2 pl-2">Coffee ☕</li>
+          <li className="ml-4 mb-2 pl-2">Computers 💻</li>
           <li className="ml-4 pl-2">Creating 👷‍♂️</li>
         </ul>
       </div>
