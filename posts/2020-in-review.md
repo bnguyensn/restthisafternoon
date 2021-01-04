@@ -23,7 +23,7 @@ A few things I missed out due to the worldwide pandemic:
 A few things I aim to achieve next year:
 
 - Ship more code for our side hustle [Build to Rent](https://buildtorent.io)
-- Get out of the rat race
+- Freedom
 
 There is a saying, the days are long, but the years are short. It felt like just yesterday that I was home with the family at the beginning of the year, and now here we are, on the verge of the new year.
 
