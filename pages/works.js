@@ -7,7 +7,15 @@ const Works = ({ title, ...props }) => {
       <div className="mx-auto max-w-screen-md px-4">
         <h6 className="py-4 font-bold">Public works</h6>
 
-        <p className="py-2">Some of the (mostly fun) stuff I&#39;ve done:</p>
+        <ul className="py-2 list-disc">
+          <li className="ml-4 pl-2">
+            <ExternalLink href="https://beta.buildtorent.io/">
+              Property database site
+            </ExternalLink>
+          </li>
+        </ul>
+
+        <p className="py-2">Other (mostly fun) stuff I&#39;ve done:</p>
 
         <ul className="py-2 list-disc">
           <li className="ml-4 pl-2">
