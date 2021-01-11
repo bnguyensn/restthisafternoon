@@ -63,6 +63,14 @@ a:hover {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
 
+.list-item-interactive {
+  margin-bottom: 0.5rem;
+}
+
+.list-item-interactive:last-child {
+  margin-bottom: 0;
+}
+
 .blog-post p {
   @apply py-2
 }

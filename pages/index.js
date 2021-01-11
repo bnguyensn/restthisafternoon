@@ -23,10 +23,10 @@ const Index = ({ posts, title, ...props }) => {
         </p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 mb-2 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <InternalLink href="/works">My public works</InternalLink>
           </li>
-          <li className="ml-4 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <InternalLink href="/writings">My writings</InternalLink>
           </li>
         </ul>
@@ -34,12 +34,12 @@ const Index = ({ posts, title, ...props }) => {
         <p className="py-2">I&#39;m also available on:</p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 mb-2 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://twitter.com/bnguyensn">
               Twitter
             </ExternalLink>
           </li>
-          <li className="ml-4 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://github.com/bnguyensn">
               GitHub
             </ExternalLink>
@@ -49,9 +49,9 @@ const Index = ({ posts, title, ...props }) => {
         <p className="py-2">Things I like:</p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 mb-2 pl-2">Coffee ☕</li>
-          <li className="ml-4 mb-2 pl-2">Computers 💻</li>
-          <li className="ml-4 pl-2">Creating 👷‍♂️</li>
+          <li className="list-item-interactive ml-4 pl-2">Coffee ☕</li>
+          <li className="list-item-interactive ml-4 pl-2">Computers 💻</li>
+          <li className="list-item-interactive ml-4 pl-2">Creating 👷‍♂️</li>
         </ul>
       </div>
     </Layout>

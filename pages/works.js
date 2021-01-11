@@ -7,9 +7,11 @@ const Works = ({ title, ...props }) => {
       <div className="mx-auto max-w-screen-md px-4">
         <h6 className="py-4 font-bold">Public works</h6>
 
+        <p className="py-2">I'm currently building:</p>
+
         <ul className="py-2 list-disc">
           <li className="ml-4 pl-2">
-            <ExternalLink href="https://beta.buildtorent.io/">
+            <ExternalLink href="https://buildtorent.io/">
               Property database site
             </ExternalLink>
           </li>
@@ -18,22 +20,22 @@ const Works = ({ title, ...props }) => {
         <p className="py-2">Other (mostly fun) stuff I&#39;ve done:</p>
 
         <ul className="py-2 list-disc">
-          <li className="ml-4 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://super-app-18.restthisafternoon.com/">
               Word guessing
             </ExternalLink>
           </li>
-          <li className="ml-4 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://super-app-20.restthisafternoon.com/">
               Invert binary tree
             </ExternalLink>
           </li>
-          <li className="ml-4 pl-2">
+          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://string-versus.restthisafternoon.com/">
               String versus
             </ExternalLink>
           </li>
-          <li className="ml-4 pl-2">More to come...</li>
+          <li className="list-item-interactive ml-4 pl-2">More to come...</li>
         </ul>
       </div>
     </Layout>
