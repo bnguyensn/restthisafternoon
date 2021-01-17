@@ -87,6 +87,10 @@ a:hover {
   @apply ml-4 pl-2
 }
 
+.blog-post code {
+  @apply bg-gray-100 font-mono
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */

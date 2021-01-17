@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ['"Bubblegum Sans"', 'sans'],
+      mono: ['ui-monospace', 'Consolas', '"Courier New"', 'monospace'],
     },
 
     extend: {
