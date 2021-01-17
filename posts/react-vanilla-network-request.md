@@ -30,7 +30,7 @@ const fetchWords = async (howMany) => {
     const res = await fetch(url);
   
     if (!res.ok) {
-      const errMsg = res.text();
+      const errMsg = await res.text();
       return new Error(errMsg);
     }
   
