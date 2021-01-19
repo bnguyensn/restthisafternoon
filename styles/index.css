@@ -91,6 +91,10 @@ a:hover {
   @apply bg-gray-100 font-mono
 }
 
+.blog-post img {
+  @apply mx-auto
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
