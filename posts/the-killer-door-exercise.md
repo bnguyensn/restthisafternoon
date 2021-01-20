@@ -1,5 +1,5 @@
 ---
-title: The Killer Garage Door Exercise
+title: The Killer Garage Door exercise
 author: Binh Nguyen
 date: "2021-01-19"
 category: guide
@@ -19,5 +19,3 @@ After reviewing others' answers, I went and create a React app for the exercise.
 In the meantime, enjoy this GIF of the web app in action:
 
 ![killer garage door React app gif](/post-images/the-killer-door-exercise/killer-garage-door.gif)
-
-
