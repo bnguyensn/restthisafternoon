@@ -21,11 +21,6 @@ const Works = ({ title, ...props }) => {
 
         <ul className="py-2 list-disc">
           <li className="list-item-interactive ml-4 pl-2">
-            <ExternalLink href="https://super-app-18.restthisafternoon.com/">
-              Word guessing
-            </ExternalLink>
-          </li>
-          <li className="list-item-interactive ml-4 pl-2">
             <ExternalLink href="https://super-app-20.restthisafternoon.com/">
               Invert binary tree
             </ExternalLink>
