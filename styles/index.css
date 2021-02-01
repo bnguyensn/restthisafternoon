@@ -91,6 +91,10 @@ a:hover {
   @apply bg-gray-100 font-mono
 }
 
+.blog-post pre {
+  @apply max-h-80
+}
+
 .blog-post img {
   @apply mx-auto
 }
