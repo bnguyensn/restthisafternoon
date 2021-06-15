@@ -40,17 +40,20 @@ export async function getStaticProps() {
     return data;
   })(require.context('../posts', true, /\.md$/));
 
-  // Sort posts by their dates in descending order
-  posts.sort((postA, postB) => {
-    const dateA = new Date(postA.frontmatter.date);
-    const dateB = new Date(postB.frontmatter.date);
+  const finalPosts = posts
+    // Don't includue draft posts
+    .filter((post) => !post.frontmatter.isDraft)
+    // Sort posts by their dates in descending order
+    .sort((postA, postB) => {
+      const dateA = new Date(postA.frontmatter.date);
+      const dateB = new Date(postB.frontmatter.date);
 
-    return dateB - dateA;
-  });
+      return dateB - dateA;
+    });
 
   return {
     props: {
-      posts,
+      posts: finalPosts,
       title: configData.default.title,
     },
   };

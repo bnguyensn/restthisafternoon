@@ -1,9 +1,10 @@
 ---
 title: The Killer Garage Door exercise
 author: Binh Nguyen
-date: "2021-01-19"
+date: '2021-01-19'
 category: guide
 tags: state management, programming
+isDraft: true
 ---
 
 I had the chance to do the [Killer Garage Door](https://www.codewars.com/kata/58b1ae711fcffa34090000ea) exercise in an interview recently.
