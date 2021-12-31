@@ -6,7 +6,7 @@ category: nugget
 tags: life
 ---
 
-2021 will be over tomorrow! I learned and created a lot of new things this year. So despite the pandemic, 
+2021 will be over tomorrow! I learned and created a lot of new things this year. With the pandemic raging on across the globe, I consider myself very lucky to have been living in a place where I (and my surrounding populace) can get triple-vaxxed very quickly and feel safe from COVID-19.
 
 A few things I've done this year:
 
@@ -20,8 +20,11 @@ A few things I've done this year:
 - Maintained bouldering (started around September 2020). I'm around V3-ish, I think.
 - Visited Cornwall
 - Watched lots of IMAX (a few twice: Shang-Chi, Eternals, Spider-Man: No Way Home)
+- Listened to many podcasts, especially the All-In podcast, Lex Fridman, and Nick Huberman.
+- Started a few books (they are not finished yet)
 - Watched England went (almost) all the way at the EURO.
 - Made new friends and connections
+- Had 3 doses of vaccines 💉
 
 My GitHub contributions this year:
 
