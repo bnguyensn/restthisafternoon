@@ -8,6 +8,10 @@ tags: life
 
 2021 will be over tomorrow! I learned and created a lot of new things this year. With the pandemic raging on across the globe, I consider myself very lucky to have been living in a place where I (and my surrounding populace) can get triple-vaxxed very quickly and feel safe from COVID-19.
 
+Tower Bridge photo taken afternoon 31/12/2021:
+
+![Tower Bridge photo taken afternoon 31/12/2021](/post-images/2021-in-review/tower-bridge.webp)
+
 A few things I've done this year:
 
 - Shipped lots of code for our side hustle [Build to Rent](https://buildtorent.io)
@@ -29,7 +33,6 @@ A few things I've done this year:
 My GitHub contributions this year:
 
 ![2021 GitHub contributions](/post-images/2021-in-review/github-contributions.png)
-
 
 A few things I missed out due to the worldwide pandemic:
 
