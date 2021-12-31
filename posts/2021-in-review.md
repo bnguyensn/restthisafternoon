@@ -49,7 +49,7 @@ A few things I aim to achieve next year:
 - Keep making new friends and connections
 - Driving license (low priority)
 
-Ending this note, I watched [Don't Look Up](https://www.imdb.com/title/tt11286314/) (with Leonardo DiCaprio) near the end of the year. The movie has a good but scary message on climate change. What hits me, is at the end of the movie, Leo's character says to his family and friends: _"We really did have everything, didn't we"_.
+Ending this note, I watched [Don't Look Up](https://www.imdb.com/title/tt11286314/) (with Leonardo DiCaprio) near the end of the year. The movie has a good but scary message on climate change. What resonated with me, is at the end of the movie, Leo's character says to his family and friends: _"We really did have everything, didn't we"_.
 
 A short, but simple message. You don't really appreciate the things you have until it's gone.
 
