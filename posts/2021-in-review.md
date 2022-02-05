@@ -1,7 +1,7 @@
 ---
 title: 2021 in Review
 author: Binh Nguyen
-date: "2021-12-31"
+date: '2021-12-31'
 category: nugget
 tags: life
 ---
@@ -15,11 +15,11 @@ Tower Bridge photo taken afternoon 31/12/2021:
 A few things I've done this year:
 
 - Shipped lots of code for our side hustle [Build to Rent](https://buildtorent.io)
-   - Additional core functions surrounding data analytics started to being built
-   - New designs were implemented
-   - Tenants started using the site mid-way through the year
-   - Real, actual customers started to reach out
-   - Personnel changes happened, but we've arrived at a good spot for the next year
+  - Additional core functions surrounding data analytics started to being built
+  - New designs were implemented
+  - Tenants started using the site mid-way through the year
+  - Real, actual customers started to reach out
+  - Personnel changes happened, but we've arrived at a good spot for the next year
 - Left the workplace college that is PwC and shipped code at the new workplace (not-yet-public project)
 - Maintained bouldering (started around September 2020). I'm around V3-ish, I think.
 - Visited Cornwall

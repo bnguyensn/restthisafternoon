@@ -1,5 +1,11 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:@next/next/recommended"
+  ],
   "env": {
     "es6": true,
     "node": true,
@@ -11,10 +17,14 @@
     "ecmaFeatures": { "jsx": true },
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "import", "jsx-a11y"],
   "rules": {
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "no-unused-vars": [
+      "error",
+      { "args": "after-used", "ignoreRestSiblings": true }
+    ]
   },
   "settings": {
     "react": {

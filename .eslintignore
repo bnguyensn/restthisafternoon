@@ -4,4 +4,13 @@ __mocks__
 public
 .vs
 .idea
+
+# Build folders
 build
+.next
+
+# Project-specific folders
+posts
+public
+styles
+

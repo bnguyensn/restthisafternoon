@@ -1,7 +1,7 @@
 ---
 title: The Reminder
 author: Binh Nguyen
-date: "2020-08-25"
+date: '2020-08-25'
 category: nugget
 tags: tech
 ---
@@ -16,5 +16,4 @@ A simple concept, yet incredibly powerful. The internet had a similar impact to 
 
 What will the next big jump be? How can learning rate be advanced even further? We can certainly consider the possibility of directly "beaming" information to a person's brain, cutting out all the current boring typings and searching processes. May there will be an AI that automatically reads our thoughts and instantly provides answers after querying its central knowledge net?
 
-Whatever the future will be, I am excited for it. 
-
+Whatever the future will be, I am excited for it.

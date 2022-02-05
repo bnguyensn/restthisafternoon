@@ -11,12 +11,6 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   if (!frontmatter) return <></>;
 
-  const renderers = {
-    code: ({ language, value }) => (
-      <SyntaxHighlighter language={language} children={value} />
-    ),
-  };
-
   return (
     <Layout
       pageTitle={`${siteTitle} | ${frontmatter.title}`}
@@ -25,11 +19,37 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
       <div className="mx-auto max-w-screen-md px-4">
         <article className="blog-post pb-4">
           <h3 className="py-2 font-bold">{frontmatter.title}</h3>
+
           <div className="pb-4 text-sm text-gray-600">
             {formatDate(new Date(frontmatter.date), locale)}
           </div>
+
           <section>
-            <ReactMarkdown renderers={renderers} source={markdownBody} />
+            <ReactMarkdown
+              components={{
+                code({ node, inline, className, children, ...props }) {
+                  const match = /language-(\w+)/.exec(className || '');
+
+                  return !inline && match ? (
+                    <SyntaxHighlighter
+                      language={match[1]}
+                      customStyle={{
+                        'max-height': 'inherit',
+                      }}
+                      {...props}
+                    >
+                      {String(children).replace(/\n$/, '')}
+                    </SyntaxHighlighter>
+                  ) : (
+                    <code className={className} {...props}>
+                      {children}
+                    </code>
+                  );
+                },
+              }}
+            >
+              {markdownBody}
+            </ReactMarkdown>
           </section>
         </article>
       </div>
@@ -54,8 +74,8 @@ export async function getStaticProps({ params: { postname } }) {
 export async function getStaticPaths() {
   const blogSlugs = ((context) => {
     const keys = context.keys();
-    const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+    const data = keys.map((key) => {
+      let slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
 
       return slug;
     });
