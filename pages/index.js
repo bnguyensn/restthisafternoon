@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import InternalLink from '../components/InternalLink';
 import ExternalLink from '../components/ExternalLink';
 
-const Index = ({ posts, title, ...props }) => {
+const Index = ({ title }) => {
   return (
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">

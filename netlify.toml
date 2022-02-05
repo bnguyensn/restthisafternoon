@@ -1,8 +1,11 @@
 [build]
-command = "npm run build && npm run export"
-publish = "out"
+command = "npm run build"
+publish = ".next"
 
 [[headers]]
 for = "/fonts/*"
 [headers.values]
 Cache-Control = "public, max-age=31536000"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 
-export default function Layout({ children, pageTitle, keywords, ...props }) {
+export default function Layout({ children, pageTitle, keywords }) {
   const baseKw = `bnguyensn, blog, personal`;
   const kw = keywords ? `${baseKw}, ${keywords}` : baseKw;
 

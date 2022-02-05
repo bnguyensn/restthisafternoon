@@ -35,7 +35,7 @@ export default function Header() {
           <li className="hidden md:block mx-2 text-center">
             <InternalLink href="/writings">Writings</InternalLink>
           </li>
-          <li className="font-display flex-grow text-right">
+          <li className="font-display grow text-right">
             <InternalLink href="/">
               <span className="cursor-pointer text-pink-600 text-3xl">
                 Rest this Afternoon <span>⛅</span>

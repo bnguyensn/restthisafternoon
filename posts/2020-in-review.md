@@ -1,7 +1,7 @@
 ---
 title: 2020 in Review
 author: Binh Nguyen
-date: "2020-12-31"
+date: '2020-12-31'
 category: nugget
 tags: life
 ---

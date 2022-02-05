@@ -1,13 +1,13 @@
 import Layout from '../components/Layout';
 import ExternalLink from '../components/ExternalLink';
 
-const Works = ({ title, ...props }) => {
+const Works = ({ title }) => {
   return (
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">
         <h6 className="py-4 font-bold">Public works</h6>
 
-        <p className="py-2">I'm currently building:</p>
+        <p className="py-2">I&apos;m currently building:</p>
 
         <ul className="py-2 list-disc">
           <li className="ml-4 pl-2">

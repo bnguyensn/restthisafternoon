@@ -1,12 +1,12 @@
 ---
 title: Perform network requests with vanilla React
 author: Binh Nguyen
-date: "2021-01-17"
+date: '2021-01-17'
 category: guide
 tags: javascript, react
 ---
 
-*Disclaimer: using vanilla React is great for understanding React. However, when writing production code, you probably should consider external solutions like Tanner Linsley's [`react-query`](https://react-query.tanstack.com) or Next.js' [`swr`](https://github.com/vercel/swr), which provide caching, better controls, retries, etc. out of the box.*
+_Disclaimer: using vanilla React is great for understanding React. However, when writing production code, you probably should consider external solutions like Tanner Linsley's [`react-query`](https://react-query.tanstack.com) or Next.js' [`swr`](https://github.com/vercel/swr), which provide caching, better controls, retries, etc. out of the box._
 
 First things first, you can view the completed Codesandbox [here](https://codesandbox.io/s/vanilla-react-network-request-tjugq?file=/src/App.js). It's a React application that fetches random dog images from the [random dog images API](https://dog.ceo/dog-api). You can change how many images to fetch using an input.
 
@@ -47,7 +47,7 @@ const fetchDogImages = async (howMany) => {
 };
 ```
 
-Our asynchronous `fetchDogImages` function takes in a number that controls how many images should be fetched from the API. It then makes a network request using `fetch` which is a standard web API. 
+Our asynchronous `fetchDogImages` function takes in a number that controls how many images should be fetched from the API. It then makes a network request using `fetch` which is a standard web API.
 
 A `try/catch` block is used to handle network errors (in case the user is offline). In addition, if the `fetch` request fails for whatever reason (e.g. Bad Request), we catch these too via the `!res.ok` check.
 
@@ -56,6 +56,7 @@ If everything goes well, the function returns an array of dog image URLs.
 #### 2. The React component - No API
 
 Let's create the React component without any API stuff. We have:
+
 - A number input to allow users to control how many images should be fetched
 - A text block to display our fetches' loading status
 - A text block to display fetch errors
@@ -179,7 +180,7 @@ export default function App() {
     // Execute the function defined above after every render.
     void executor();
   }, [howMany, setApiResponse]);
-  
+
   // ...
 }
 ```
