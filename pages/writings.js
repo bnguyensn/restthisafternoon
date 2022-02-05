@@ -3,7 +3,7 @@ import matter from 'gray-matter';
 import Layout from '../components/Layout';
 import PostList from '../components/PostList';
 
-const Writings = ({ title, posts, ...props }) => {
+const Writings = ({ title, posts }) => {
   return (
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">
@@ -27,7 +27,7 @@ export async function getStaticProps() {
     const values = keys.map(context);
 
     const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+      let slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
       const value = values[index];
       const document = matter(value.default);
       return {

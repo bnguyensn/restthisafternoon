@@ -7,7 +7,7 @@
     "browser": true
   },
   "parserOptions": {
-    "ecmaVersion": 9,
+    "ecmaVersion": "latest",
     "ecmaFeatures": { "jsx": true },
     "sourceType": "module"
   },

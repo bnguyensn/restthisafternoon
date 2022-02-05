@@ -1,7 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  content: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
       display: ['"Bubblegum Sans"', 'sans'],
@@ -14,7 +14,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [],
   future: {
     removeDeprecatedGapUtilities: true,
