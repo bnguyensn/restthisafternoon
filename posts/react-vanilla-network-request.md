@@ -6,7 +6,7 @@ category: guide
 tags: javascript, react
 ---
 
-_Disclaimer: using vanilla React is great for understanding React. However, when writing production code, you probably should consider external solutions like Tanner Linsley's [`react-query`](https://react-query.tanstack.com) or Next.js' [`swr`](https://github.com/vercel/swr), which provide caching, better controls, retries, etc. out of the box._
+_Disclaimer: using vanilla React is great for understanding React. However, when writing production code, you probably should consider external solutions like Tanner Linsley's [`react-query`](https://react-query.tanstack.com) or Next.js' [`swr`](https://github.com/vercel/swr), which provide caching, better controls, retries, etc. out of the box. Please also check out the React team's official documentation on data fetching [here](https://beta.reactjs.org/learn/synchronizing-with-effects#fetching-data)._
 
 First things first, you can view the completed Codesandbox [here](https://codesandbox.io/s/vanilla-react-network-request-tjugq?file=/src/App.js). It's a React application that fetches random dog images from the [random dog images API](https://dog.ceo/dog-api). You can change how many images to fetch using an input.
 
