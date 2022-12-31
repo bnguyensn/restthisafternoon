@@ -8,7 +8,7 @@ tags: life
 
 Can't believe 2022 is going to be over in a bit! This has been a very influential year for me, one where I had a lot of reflections. It's one of those years when a *lot* of stuff happened.
 
-Tower Bridge photo taken afternoon 31/12/2022:
+Tower Bridge photo taken on 30/12/2022:
 
 ![Tower Bridge photo taken on 30/12/2022](/post-images/2022-in-review/tower-bridge.webp)
 
@@ -22,7 +22,8 @@ A few things I've done this year:
 - I did a lot more writings this year (though still not enough). They are unpublished for now, but I hope they will get to the right audience some time in the future.
 - I bought more LEGO (my favourite has to be the [Tallneck](https://brickset.com/sets/76989-1/Horizon-Forbidden-West-Tallneck), which is sitting proudly on my desk) and a new [keyboard](https://www.duckychannel.com.tw/en/One3-RGB-TKL-PureWhite).
 - Bouldering-wise, I did get to V4-V5 ish, but it's not consistent. I aim to continue climbing and improve. Really need to get my strength up.
-- I didn't watch too movies or series this year, and due to some personal issues, didn't go to the theatre at all in the later half of the year. Hopefully the theatre vibe will come back to me. 
+- I didn't watch too movies or series this year, and due to some personal issues, didn't go to the theatre at all in the later half of the year. Hopefully the theatre vibe will come back to me.
+- I Bought an iPad with the Apple pencil. I want to get back to my drawing hobby.
 
 My GitHub contributions this year:
 
@@ -34,6 +35,7 @@ A few things I aim to achieve next year:
 - Learn to drive and get a license
 - Write a lot more, especially self reflection stuff
 - Go to therapy
+- Draw! It's about time for me to get back to my drawing hobby. I want to churn out a few fun and cute comics, as well as a good art piece involving cat(s).
 - Cook more adventurous stuff, like roasts
 - Bouldering: get to V7
 - Maintain exercises and running
