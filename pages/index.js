@@ -16,7 +16,7 @@ const Index = ({ title }) => {
           />
         </div>
 
-        <h6 className="py-4">Hi 👋, I&#39;m Binh</h6>
+        <h2 className="py-4">Hi 👋, I&#39;m Binh</h2>
 
         <p className="py-2">
           Thank you for dropping by. On this site you&#39;ll find:
