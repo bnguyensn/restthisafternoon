@@ -15,7 +15,9 @@ const Works = ({ title }) => {
           </li>
         </ul>
 
-        <p className="py-2">Other (mostly fun) stuff I&#39;ve done:</p>
+        <p className="py-2">
+          Other (mostly fun) stuff I&#39;ve done (links might be broken):
+        </p>
 
         <ul className="py-2 list-disc">
           <li className="list-item-interactive ml-4 pl-2">
