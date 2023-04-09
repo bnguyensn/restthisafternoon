@@ -1,11 +1,12 @@
 import { useState } from 'react';
-
+import { useRouter } from 'next/router';
 import InternalLink from './InternalLink';
 import IconButton from './IconButton';
 import MenuIcon from './icons/MenuIcon';
 import CloseIcon from './icons/CloseIcon';
 
 export default function Header() {
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuBtnClick = () => {
@@ -30,10 +31,17 @@ export default function Header() {
             </IconButton>
           </li>
           <li className="hidden md:block mx-2 text-center">
-            <InternalLink href="/works">Works</InternalLink>
+            <InternalLink href="/works" isActive={router.asPath === '/works'}>
+              Works
+            </InternalLink>
           </li>
           <li className="hidden md:block mx-2 text-center">
-            <InternalLink href="/writings">Writings</InternalLink>
+            <InternalLink
+              href="/writings"
+              isActive={router.asPath === '/writings'}
+            >
+              Writings
+            </InternalLink>
           </li>
           <li className="font-display grow text-right">
             <InternalLink href="/">
@@ -52,10 +60,17 @@ export default function Header() {
       >
         <ul className="flex flex-col">
           <li className="mb-2">
-            <InternalLink href="/works">Works</InternalLink>
+            <InternalLink href="/works" isActive={router.asPath === '/works'}>
+              Works
+            </InternalLink>
           </li>
           <li>
-            <InternalLink href="/writings">Writings</InternalLink>
+            <InternalLink
+              href="/writings"
+              isActive={router.asPath === '/writings'}
+            >
+              Writings
+            </InternalLink>
           </li>
         </ul>
       </nav>
