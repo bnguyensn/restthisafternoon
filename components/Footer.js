@@ -23,9 +23,7 @@ export default function Footer() {
 
         <p className="pb-2">
           Deployed by{' '}
-          <ExternalLinkDark href="https://tailwindcss.com">
-            Netlify
-          </ExternalLinkDark>
+          <ExternalLinkDark href="https://vercel.com">Vercel</ExternalLinkDark>
           <span> 🚀</span>
         </p>
 
@@ -41,7 +39,7 @@ export default function Footer() {
           <span> ✨</span>
         </p>
 
-        <p>2020 - 2021</p>
+        <p>2020 - 2023</p>
       </div>
     </footer>
   );

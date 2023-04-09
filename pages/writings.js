@@ -7,8 +7,6 @@ const Writings = ({ title, posts }) => {
   return (
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">
-        <h6 className="py-4 font-bold">Writings</h6>
-
         <p className="py-2">My musings on life and technology:</p>
 
         <PostList posts={posts} />

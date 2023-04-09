@@ -5,8 +5,6 @@ const Works = ({ title }) => {
   return (
     <Layout pageTitle={title}>
       <div className="mx-auto max-w-screen-md px-4">
-        <h6 className="py-4 font-bold">Public works</h6>
-
         <p className="py-2">I&apos;m currently building:</p>
 
         <ul className="py-2 list-disc">
@@ -17,7 +15,9 @@ const Works = ({ title }) => {
           </li>
         </ul>
 
-        <p className="py-2">Other (mostly fun) stuff I&#39;ve done:</p>
+        <p className="py-2">
+          Other (mostly fun) stuff I&#39;ve done (links might be broken):
+        </p>
 
         <ul className="py-2 list-disc">
           <li className="list-item-interactive ml-4 pl-2">
