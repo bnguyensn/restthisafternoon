@@ -14,30 +14,30 @@
     "lint": "npx eslint \"**/*.{js,jsx}\""
   },
   "dependencies": {
-    "clsx": "^1.2.1",
-    "eslint-config-next": "^13.0.2",
+    "clsx": "^2.1.0",
+    "eslint-config-next": "^14.1.0",
     "gray-matter": "^4.0.3",
-    "next": "^13.0.2",
+    "next": "^14.1.0",
     "raw-loader": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.0",
+    "react-markdown": "^9.0.1",
     "react-syntax-highlighter": "^15.4.5"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.2.4",
-    "@next/eslint-plugin-next": "^12.0.10",
+    "@next/eslint-plugin-next": "^14.1.0",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.3.0",
     "postcss": "^8.4.6",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.3.1",
-    "prettier": "^2.2.1",
+    "postcss-preset-env": "^9.3.0",
+    "prettier": "^3.2.5",
     "tailwindcss": "^3.0.18"
   }
 }

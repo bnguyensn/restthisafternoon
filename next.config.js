@@ -1,3 +1,6 @@
+/**
+ * @type {import('next').NextConfig}
+ */
 module.exports = {
   swcMinify: true,
   images: {
@@ -10,4 +13,5 @@ module.exports = {
     });
     return config;
   },
+  output: 'export',
 };
