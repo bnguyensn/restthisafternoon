@@ -34,7 +34,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
                     <SyntaxHighlighter
                       language={match[1]}
                       customStyle={{
-                        'max-height': 'inherit',
+                        maxHeight: 'inherit',
                       }}
                       {...props}
                     >
