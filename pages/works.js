@@ -1,5 +1,6 @@
 import Layout from '../components/Layout';
 import ExternalLink from '../components/ExternalLink';
+import InternalLink from '../components/InternalLink';
 
 const Works = ({ title }) => {
   return (
@@ -34,6 +35,9 @@ const Works = ({ title }) => {
             <ExternalLink href="https://repl-chat.restthisafternoon.com/">
               blog.repl.it chat client
             </ExternalLink>
+          </li>
+          <li className="list-item-interactive ml-4 pl-2">
+            <InternalLink href="/works/countdown">Countdown</InternalLink>
           </li>
           <li className="list-item-interactive ml-4 pl-2">More to come...</li>
         </ul>
