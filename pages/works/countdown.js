@@ -24,6 +24,7 @@ export default function Countdown({ title }) {
 
   return (
     <Layout pageTitle={title}>
+      <div>What is it counting down to?</div>
       <div className="mx-auto max-w-screen-md px-4">
         Remaining: {msToHour(targetTime - currentTime)}
       </div>
