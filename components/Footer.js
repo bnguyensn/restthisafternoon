@@ -39,7 +39,7 @@ export default function Footer() {
           <span> ✨</span>
         </p>
 
-        <p>2020 - 2024</p>
+        <p>2020 - 2025</p>
       </div>
     </footer>
   );
